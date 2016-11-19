@@ -1,66 +1,40 @@
-Success (7):
-adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST "Encryption Service"
-adminSetting conf.userStartPages.DEFAULT_START_PAGE "Default Start Page"
-adminSetting conf.userStartPages.START_PAGES "Start Pages"
-thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df "ExcelPlugin"
-thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 "Linkedin"
-thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 "Sharepoint"
-thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 "SharePointServer"
+Success (1):
+processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 "test"
 
-Referenced precedents that were not exported (3):
-group 260 _e-0001dd0b-8755-8000-9ccd-011e94011e94_260
-group 261 _e-0001dd0b-8755-8000-9ccd-011e94011e94_261
-group 270 _e-0001dd0b-8755-8000-9ccd-011e94011e94_270
+Referenced precedents that were not exported (1):
+processModelFolder 64 _g-0001dde0-fb9e-8000-9ccd-014d98014d98_66
 
 Trace:
-2016-11-17 06:08:03.95 DEBUG adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST Begin transport.
-2016-11-17 06:08:03.95 DEBUG adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST Retrieving object data.
-2016-11-17 06:08:03.951 DEBUG adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST Setting uuids of object references.
-2016-11-17 06:08:03.953 DEBUG adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST Exporting binary resources.
-2016-11-17 06:08:03.953 DEBUG adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST Serializing object to XML.
-2016-11-17 06:08:03.953 DEBUG adminSetting conf.plugins.ENCRYPTION_API_ACCESS_LIST Object transported.
-2016-11-17 06:08:03.953 DEBUG adminSetting conf.userStartPages.DEFAULT_START_PAGE Begin transport.
-2016-11-17 06:08:03.953 DEBUG adminSetting conf.userStartPages.DEFAULT_START_PAGE Retrieving object data.
-2016-11-17 06:08:03.955 DEBUG adminSetting conf.userStartPages.DEFAULT_START_PAGE Setting uuids of object references.
-2016-11-17 06:08:03.956 DEBUG adminSetting conf.userStartPages.DEFAULT_START_PAGE Exporting binary resources.
-2016-11-17 06:08:03.956 DEBUG adminSetting conf.userStartPages.DEFAULT_START_PAGE Serializing object to XML.
-2016-11-17 06:08:03.957 DEBUG adminSetting conf.userStartPages.DEFAULT_START_PAGE Object transported.
-2016-11-17 06:08:03.957 DEBUG adminSetting conf.userStartPages.START_PAGES Begin transport.
-2016-11-17 06:08:03.957 DEBUG adminSetting conf.userStartPages.START_PAGES Retrieving object data.
-2016-11-17 06:08:03.965 DEBUG adminSetting conf.userStartPages.START_PAGES Setting uuids of object references.
-2016-11-17 06:08:03.968 DEBUG adminSetting conf.userStartPages.START_PAGES Processing reference: GroupRefImpl [id=260, uuid=_e-0001dd0b-8755-8000-9ccd-011e94011e94_260]
-2016-11-17 06:08:03.971 DEBUG adminSetting conf.userStartPages.START_PAGES Processing reference: GroupRefImpl [id=261, uuid=_e-0001dd0b-8755-8000-9ccd-011e94011e94_261]
-2016-11-17 06:08:03.971 DEBUG adminSetting conf.userStartPages.START_PAGES Processing reference: GroupRefImpl [id=270, uuid=_e-0001dd0b-8755-8000-9ccd-011e94011e94_270]
-2016-11-17 06:08:03.972 DEBUG adminSetting conf.userStartPages.START_PAGES Exporting binary resources.
-2016-11-17 06:08:03.972 DEBUG adminSetting conf.userStartPages.START_PAGES Serializing object to XML.
-2016-11-17 06:08:03.973 DEBUG adminSetting conf.userStartPages.START_PAGES Object transported.
-2016-11-17 06:08:03.983 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Begin transport.
-2016-11-17 06:08:03.983 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Retrieving object data.
-2016-11-17 06:08:03.994 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Setting uuids of object references.
-2016-11-17 06:08:04.001 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Processing reference: ExternalSystem.testExpression
-2016-11-17 06:08:04.003 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Registering export properties.
-2016-11-17 06:08:04.004 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Exporting binary resources.
-2016-11-17 06:08:04.004 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Serializing object to XML.
-2016-11-17 06:08:04.005 DEBUG thirdPartyCredentials 1 1663760c-3207-4733-af3f-63ce20f2c1df Object transported.
-2016-11-17 06:08:04.005 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Begin transport.
-2016-11-17 06:08:04.005 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Retrieving object data.
-2016-11-17 06:08:04.012 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Setting uuids of object references.
-2016-11-17 06:08:04.012 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Processing reference: ExternalSystem.testExpression
-2016-11-17 06:08:04.014 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Registering export properties.
-2016-11-17 06:08:04.014 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Exporting binary resources.
-2016-11-17 06:08:04.014 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Serializing object to XML.
-2016-11-17 06:08:04.014 DEBUG thirdPartyCredentials 4 591bb52d-125a-43a9-a594-733ee37bc1e8 Object transported.
-2016-11-17 06:08:04.014 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Begin transport.
-2016-11-17 06:08:04.014 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Retrieving object data.
-2016-11-17 06:08:04.021 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Setting uuids of object references.
-2016-11-17 06:08:04.021 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Registering export properties.
-2016-11-17 06:08:04.021 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Exporting binary resources.
-2016-11-17 06:08:04.021 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Serializing object to XML.
-2016-11-17 06:08:04.022 DEBUG thirdPartyCredentials 5 0cdcd1ae-bf80-449e-8a8b-5347c9986b06 Object transported.
-2016-11-17 06:08:04.022 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Begin transport.
-2016-11-17 06:08:04.022 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Retrieving object data.
-2016-11-17 06:08:04.029 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Setting uuids of object references.
-2016-11-17 06:08:04.029 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Registering export properties.
-2016-11-17 06:08:04.029 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Exporting binary resources.
-2016-11-17 06:08:04.029 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Serializing object to XML.
-2016-11-17 06:08:04.029 DEBUG thirdPartyCredentials 6 3a7264a6-6b9a-47c0-bdf6-b7cd4d9562b8 Object transported.
+2016-11-19 08:00:57.2 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Begin transport.
+2016-11-19 08:00:57.2 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Retrieving object data.
+2016-11-19 08:00:57.212 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Setting uuids of object references.
+2016-11-19 08:00:57.212 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ProcessModelHaul.folderId
+2016-11-19 08:00:57.213 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ProcessModelHaul.modelDashboardPageId
+2016-11-19 08:00:57.213 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ProcessModelHaul.processDashboardPageId
+2016-11-19 08:00:57.213 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ProcessModel.emailAttachmentFolderId
+2016-11-19 08:00:57.214 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: InternalForm.docId
+2016-11-19 08:00:57.214 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: InternalForm.docId
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@740558d1[
+  Role[name=ADMIN_OWNER]
+  Role[name=EDITOR]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: Role[name=ADMIN_OWNER]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: Role[name=EDITOR]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: Role[name=VIEWER]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: Role[name=MANAGER]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Processing reference: Role[name=INITIATOR]
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Exporting binary resources.
+2016-11-19 08:00:57.215 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Serializing object to XML.
+2016-11-19 08:00:57.219 DEBUG processModel 3943 0002ddec-da38-8000-9ccd-014d98014d98 Object transported.
